@@ -3,17 +3,20 @@
 This repository contains the script for the course project of Getting and Cleaning Data course on Coursera
 
 The code to clean and prepare the data is in *run_analysis.R* file. This file contains two functions:
+
 1. runAnalysis()
 2. readAndCombine()
 
 ###Function: readAndCombine()
 This function takes four arguments:
+
 1. measurementPath: Path to the file that contains measurement data. Ex: test\\X_test.txt
 2. subjectPath: Path to the file that contains subject ID. Ex: test\\subject_test.txt
 3. activityPath: Path to the file that contains activity ID. Ex: test\\y_test.txt
 4. featurecols: A dataframe that contains column index and column name of the columns that are required for the purpose of this project.
 
 The function does the following:
+
 1. Reads measurement data and retains only mean and std related columns.
 2. Reads subject and activity data
 3. Adds subject and activity data as columns to the measurement data

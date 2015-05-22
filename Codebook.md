@@ -3,6 +3,7 @@
 The "tidydata.txt" file uploaded to Courseara website as a response to course project contains summarized and transformed data obtained from "Human Activity Recognition Using Smartphones" data set present in the machine learning repository of UCI. This codebook briefly describes the original data and the transformations applied to the original data.
 
 The original data was collected by conducting an experiment involving 30 subjects. Each subject had a smartphone and performed six different activities. The accelerometer and gyroscope present in the smartphone captured linear accelaration and angular velocity in 3-dimensions. The data thus collected were processed to obtain 561 features in time and frequency domains, which were then split into two disjoint sets: training and test. Each set contains three files of interest: 
+
 1. Actual measurements (containing 561 features)
 2. Subject that generated each measurement
 3. Activity pertaining to each measurement
@@ -17,6 +18,7 @@ The data obtained from UCI machine learning repository were subject to several t
 
 ##tidydata.txt
 This file contains transformed data from "Human Activity Recognition Using Smartphones" dataset. It contains four columns:
+
 1. SubjectID: ID of the subject that generated the data. Value ranges from 1 to 30
 2. Activity: Activity during which the data was generated. Contains six distinct values: WALKING, WALKING\_UPSTAIRS, WALKING\_DOWNSTAIRS, SITTING, STANDING, LAYING
 3. Feature: Name of the feature in time and frequency domain
