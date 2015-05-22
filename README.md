@@ -7,6 +7,8 @@ The code to clean and prepare the data is in _run\_analysis.R_ file. This file c
 1. runAnalysis()
 2. readAndCombine()
 
+This script assumes the current working directory to be "UCI HAR Dataset"  that gets created when the zip file contianing the data is unzipped.
+
 ###Function: readAndCombine()
 This function takes four arguments:
 
